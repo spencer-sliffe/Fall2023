@@ -54,9 +54,9 @@ EX 3: 	Could we construct a DFA that accepts all strings over the alphabet SUM =
 		b	     a	
 	start->(q0)----a----(q1)----b---->((q2))
 			      <---- a<----
-		<------------b------------
+		  <------------b-----------
 
 EX 4:	Could we construct a DFA that accepts all strings over the alphabet SUM = {a, b} that contain aba as a substring?
 
 	start->(q0)---a---(q1)---b--->(q2)---a--->((q3))<---\
-		<----------b----------		     \--a/b-/	
+		  <--------b----------		     \--a/b-/	
